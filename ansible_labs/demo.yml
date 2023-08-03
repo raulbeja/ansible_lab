@@ -1,0 +1,9 @@
+- name: example playbook
+  hosts: labnodes
+  become: yes
+
+  tasks:
+  - name: Install nginx latest
+    apt:
+      name: "nginx"
+      state: "latest"
