@@ -55,7 +55,7 @@ To shutdown the lab run from command line
 vagrant halt
 
 ```
-To destory lab run from command line
+To destroy lab run from command line
 
 ```shell
 vagrant destroy
